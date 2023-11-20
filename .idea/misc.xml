@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="B2CCommerceCartridgesRoots">
+    <option name="cartridgesRoots">
+      <map>
+        <entry key="template_base" value="$PROJECT_DIR$/storage/workspace/template_base" />
+      </map>
+    </option>
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+</project>

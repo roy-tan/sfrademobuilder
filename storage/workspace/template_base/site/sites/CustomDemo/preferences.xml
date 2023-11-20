@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences xmlns="http://www.demandware.com/xml/impex/preferences/2007-03-31">
+    <standard-preferences>
+        <all-instances>
+            <preference preference-id="CustomCartridges">bm_pd_se_lib:bm_app_storefront_base</preference>
+            <preference preference-id="AddProductToBasketBehavior">IncrementQuantities</preference>
+            <preference preference-id="CategoryChangeFrequency">daily</preference>
+            <preference preference-id="CategoryPriority">0.5</preference>
+            <preference preference-id="ContentChangeFrequency">daily</preference>
+            <preference preference-id="ContentPriority">0.5</preference>
+            <preference preference-id="CouponGeneratorIncludeDashes">true</preference>
+            <preference preference-id="CouponGeneratorIncludeVowels">true</preference>
+            <preference preference-id="EnableSiteOrderNumbers">false</preference>
+            <preference preference-id="MaxURLsPerFile">5000</preference>
+            <preference preference-id="OrderEditExportDelay">30</preference>
+            <preference preference-id="OrderExportDelay">30</preference>
+            <preference preference-id="OrderIPLoggingEnabled">true</preference>
+            <preference preference-id="OrderLifetime">0</preference>
+            <preference preference-id="PaymentAccountNumberLifetime">0</preference>
+            <preference preference-id="ProductChangeFrequency">daily</preference>
+            <preference preference-id="ProductPriority">0.5</preference>
+            <preference preference-id="SiteCatalog">CustomDemo-Catalog</preference>
+            <preference preference-id="SiteCurrencies">EUR:USD:GBP:JPY:CNY:CHF</preference>
+            <preference preference-id="SiteCustomerList">CustomDemo</preference>
+            <preference preference-id="SiteDefaultLocale">CustomDemo_LOCALE</preference>
+            <preference preference-id="SiteInventoryList">CustomDemo-inventory</preference>
+            <preference preference-id="SiteLibrary">CustomDemoSharedLibrary</preference>
+            <preference preference-id="SiteLocales">default:en_US:en_GB:fr_FR:ja_JP:zh_CN:it_IT:fr_CH:es_ES:pt_PT</preference>
+            <preference preference-id="SitePriceBooks">CustomDemo-list-prices</preference>
+            <preference preference-id="SiteTimezone">Etc/UTC</preference>
+            <preference preference-id="StorefrontURLsEnabled">true</preference>
+        </all-instances>
+        <development>
+            <preference preference-id="AvailabilityFiltering">Disabled</preference>
+            <preference preference-id="AvailabilityLowRankingThreshold">0.0</preference>
+            <preference preference-id="RobotsTxtContent"/>
+            <preference preference-id="RobotsTxtMode">Cartridge</preference>
+            <preference preference-id="SearchSuggestions">Disabled</preference>
+        </development>
+        <staging>
+            <preference preference-id="AvailabilityFiltering">Disabled</preference>
+            <preference preference-id="AvailabilityLowRankingThreshold">0.0</preference>
+            <preference preference-id="RobotsTxtContent"/>
+            <preference preference-id="RobotsTxtMode">Cartridge</preference>
+            <preference preference-id="SearchSuggestions">Enabled</preference>
+        </staging>
+        <production>
+            <preference preference-id="AvailabilityFiltering">Disabled</preference>
+            <preference preference-id="AvailabilityLowRankingThreshold">0.0</preference>
+            <preference preference-id="RobotsTxtContent"/>
+            <preference preference-id="RobotsTxtMode">Cartridge</preference>
+            <preference preference-id="SearchSuggestions">Disabled</preference>
+        </production>
+    </standard-preferences>
+    <custom-preferences>
+        <all-instances/>
+        <development>
+            <preference preference-id="disableResponsiveDesign">false</preference>
+            <preference preference-id="enableInfiniteScroll">false</preference>
+            <preference preference-id="enableMultiShipping">false</preference>
+            <preference preference-id="enableStorePickUp">false</preference>
+        </development>
+        <staging>
+            <preference preference-id="disableResponsiveDesign">false</preference>
+            <preference preference-id="slideshoweffect">growX</preference>
+        </staging>
+        <production/>
+    </custom-preferences>
+</preferences>
+

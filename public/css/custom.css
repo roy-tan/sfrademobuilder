@@ -1,0 +1,131 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+
+.content-right {
+  padding: 50px 50px 50px 50px;
+  height: 100%;
+  min-height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+h3.main_question strong {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+#wizard_container {
+  width: 600px;
+}
+
+.tooltip-icon{
+  height: 20px;
+  width: 20px;
+  color: white;
+  text-align: center;
+  background-color: #0786D8;
+  border-radius: 50%;
+  display: inline-block;
+  font-weight: 600px;
+
+}
+
+.form-group .btn i {
+  font-size: 20px;
+  padding: 4px;
+  position: initial ;
+  right: initial;
+  top: initial;
+  color: #fff;
+  width: initial;
+  height: initial;
+  display: block;
+  font-weight: normal;
+}
+
+
+.homepage-preview{
+  max-height: 150px;
+  width: auto;
+}
+
+.bs-tooltip-top .tooltip-inner{
+  max-width: 500px;
+  opacity: 1;
+}
+
+.tooltip.show {
+  opacity: 1;
+}
+
+.invisible{
+  color:white !important;
+}
+
+p.title{
+  font-weight: 600;
+  padding: 15px 0 5px 0;
+}
+
+figure img{
+  border-radius: 5px;
+}
+
+.step{
+  min-height:414px;
+}
+
+.results{
+  min-height:100px;
+}
+
+label.error{
+  color:red;
+  font-size: 12px;
+}
+
+.form-control.error{
+  border-color:red;
+}
+
+.wrap-text {
+  display: inline-block;
+  max-width: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+
+.content-left-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  min-height: 100%;
+  padding: 60px 90px 35px 90px;
+  background-color: #5B9ECE;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  background: #5B9ECE;
+}
+
+#get-started .modal-body p{
+  padding: 10px 0;
+  margin:0;
+}
+
+.success-bloc{
+  width: 100%;
+  padding-top:0px;
+}
+
+a.new-demo{
+  font-weight: 600;
+}

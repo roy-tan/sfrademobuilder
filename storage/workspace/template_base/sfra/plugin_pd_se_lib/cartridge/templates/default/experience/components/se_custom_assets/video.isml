@@ -1,0 +1,25 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/video.css');
+</isscript>
+
+<div class="js-video video-content">
+	<video width="100%" muted loop ${pdict.autoplay}>
+	  <source src="${pdict.videoUrl}" type="video/mp4">
+	</video>
+	
+	<div class="hover-image">
+		<isif condition="${pdict.image.src}"><img src="${pdict.image.src.desktop}"></isif>
+	 	<p class="pstyle">
+			<section>
+						<a href="${pdict.targetUrl}" style="text-decoration:none;">
+							<button id="js-trigger-overlay" type="button">
+								<isprint value="${pdict.buttonName}" encoding="off"/>
+							</button>
+						</a>
+					</section>			
+		</p>
+	 	
+	</div>
+</div>
+

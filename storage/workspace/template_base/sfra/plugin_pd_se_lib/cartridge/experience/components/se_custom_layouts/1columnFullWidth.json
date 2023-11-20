@@ -1,0 +1,13 @@
+{
+  "name": "1 Row Full Width",
+  "group": "se_custom_layouts",
+  "attribute_definition_groups": [],
+  "region_definitions": [
+      {
+        "id":"column1FullWidth",
+        "name":"Column 1 Full Width",
+        "max_components":1,
+        "component_type_exclusions":[{"type_id":"banner"}]
+      }
+  ]
+}

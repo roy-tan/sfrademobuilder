@@ -1,0 +1,38 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/component.css');
+    assets.addCss('/css/hotspot.css');
+    assets.addCss('/css/font-awesome.min.css');
+    assets.addJs('/js/hotspot.js');
+    assets.addJs('/js/productDetail.js');
+</isscript>
+<figure class="component-figure">
+    <picture>
+        <source srcset="${pdict.image.src.desktop}" media="(min-width: 768px)" />
+        <img class="component-image" src="${pdict.image.src.mobile}"
+            style="--focal-point-x:${pdict.image.focalPointX}; --focal-point-y:${pdict.image.focalPointY}" <isif
+            condition="${pdict.image.alt}">alt="${pdict.image.alt}" title="${pdict.image.alt}"</isif> />
+
+        <div id="hotspot" data-pid="${pdict.productId}" class="hotspot" style="top:${pdict.image.focalPointY}; left:${pdict.image.focalPointX};">
+            <i class="fa">&#xf067;</i>
+            <div id="hotspot-content-${pdict.productId}" class="hotspot-content ${pdict.viewType}Image ${pdict.overlayAlign}" style="display: none;">
+                <a href="${pdict.productUrl}">
+                    <div class="product-text">${pdict.productName}</div>
+                    <div class="product-text">${pdict.productPrice}</div>
+                    <img class="component-image" src="${pdict.productImage.src}" />
+                </a>
+                <isif condition="${pdict.addToCart}">
+                <div id="product-detail" data-pid="${pdict.productId}">
+                    <select class="quantity-select" style="display:none"><option value="1" selected>1</option></select>
+                    <input type="hidden" class="add-to-cart-url" value="${pdict.addToCartUrl}">
+                    <button class="add-to-cart btn btn-primary btn-hotspot" data-pid="${pdict.productId}">
+                        <i class="fa fa-shopping-bag"></i>
+                        Add to Cart
+                    </button>
+                </div>
+                </isif>
+            </div>
+        </div>
+    </picture>
+
+</figure>

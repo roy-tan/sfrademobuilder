@@ -1,0 +1,260 @@
+.action-buttons {
+  margin-bottom: 1rem; }
+
+.gift-registry-banner {
+  background-image: url("../images/giftRegistry.jpg");
+  background-position-y: 69%; }
+
+.summary-label,
+.registry-label {
+  font-weight: 500; }
+
+.edit-button,
+.view-gr {
+  cursor: pointer;
+  color: #00a1e0;
+  text-decoration: none; }
+  .edit-button:hover,
+  .view-gr:hover {
+    text-decoration: underline; }
+
+.failedAttempt {
+  color: #c00;
+  text-align: center; }
+
+#eventInfo .event-info-header {
+  padding-top: 1.5em; }
+
+#registryInfo {
+  margin-left: 0.15em;
+  margin-right: 0.15em; }
+
+input.make-list-public {
+  margin-left: 0; }
+
+label.make-list-public {
+  margin-left: 1.25rem; }
+
+.card-header .registry-info-header {
+  font-weight: bold; }
+
+.registry-card-display-info span {
+  margin-left: 0.7em;
+  font-weight: 500; }
+
+.giftregistry-messages {
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 15%;
+  left: 50%; }
+
+.giftregistry-alert {
+  animation: fade 5s linear forwards;
+  box-shadow: 1px 1px 5px grey;
+  padding: 1em; }
+
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 1; }
+  90% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+  .giftregistry-alert.show {
+    display: block; }
+
+.no-registry {
+  margin: 2rem auto; }
+
+.create-registry {
+  margin-bottom: 2rem; }
+
+.public-header {
+  font-weight: 600; }
+
+.public-header-date {
+  margin-bottom: 0; }
+
+.giftregistry-form-check-input {
+  margin-left: 0; }
+
+.gr-item-cards {
+  padding-top: 1em;
+  margin-left: 0.3em;
+  margin-right: 0.3em; }
+  .gr-item-cards .product-info {
+    margin-bottom: 1em;
+    padding: 0.625em; }
+    @media (min-width: 769px) {
+      .gr-item-cards .product-info {
+        height: auto; } }
+    @media (max-width: 991.98px) {
+      .gr-item-cards .product-info .gr-item-checkbox,
+      .gr-item-cards .product-info .gr-desired-purchased {
+        font-size: 0.938em; } }
+    .gr-item-cards .product-info .gr-desired-purchased {
+      padding-left: 0; }
+      .gr-item-cards .product-info .gr-desired-purchased i {
+        color: #008827; }
+    .gr-item-cards .product-info .public-item label {
+      padding-left: 0.5em; }
+    .gr-item-cards .product-info .product-info-row {
+      margin-left: -0.6em;
+      margin-right: -0.6em;
+      padding-top: 0.4em; }
+    .gr-item-cards .product-info button.gr-add-to-cart {
+      float: right;
+      margin-right: 0; }
+      @media (min-width: 769px) {
+        .gr-item-cards .product-info button.gr-add-to-cart {
+          margin-right: 2.438em; } }
+      @media (max-width: 543.98px) {
+        .gr-item-cards .product-info button.gr-add-to-cart {
+          width: 100%; } }
+    .gr-item-cards .product-info .product-card-price .price {
+      width: 8em; }
+    .gr-item-cards .product-info .line-item-quantity {
+      text-align: right;
+      padding-right: 0.938em; }
+      @media (min-width: 769px) {
+        .gr-item-cards .product-info .line-item-quantity {
+          padding-right: 3.333em; } }
+      .gr-item-cards .product-info .line-item-quantity select {
+        width: 4em; }
+    .gr-item-cards .product-info .remove-btn {
+      color: #999;
+      font-size: 1.625em;
+      padding: 0;
+      position: absolute;
+      top: 0;
+      right: 0.25rem;
+      border: none;
+      background-color: #fff; }
+      @media (min-width: 992px) {
+        .gr-item-cards .product-info .remove-btn {
+          top: 0;
+          bottom: 0;
+          right: -0.625rem;
+          margin-top: -0.625rem;
+          margin-bottom: -0.625rem; } }
+    .gr-item-cards .product-info .remove-btn-lg {
+      border: none;
+      border-radius: 0;
+      font-size: 1.625em;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      padding-left: 0.3125rem;
+      padding-right: 0.3125rem;
+      z-index: 1; }
+    .gr-item-cards .product-info .line-item-price-info {
+      margin-bottom: 0; }
+
+.manage-gift-registry-header h4 {
+  font-weight: bold; }
+
+.gift-registry-not-found div {
+  margin-top: 6rem;
+  padding-bottom: 4rem; }
+
+.gift-registry-not-found-footer {
+  padding-bottom: 2rem; }
+
+.gift-registry-footer-border .btn-outline-primary {
+  width: 100%; }
+
+.gr-search-results .gift-registry-footer-border {
+  width: 100%; }
+
+.more-btn-wrapper {
+  width: 100%; }
+
+.gift-registry-to-remove {
+  font-weight: bold; }
+
+.empty-giftRegistrylist-msg {
+  padding-top: 5rem;
+  padding-bottom: 3rem; }
+
+.gift-registry-item-update-button-block {
+  text-align: center; }
+  @media (max-width: 543.98px) {
+    .gift-registry-item-update-button-block {
+      padding-bottom: 1.625em; }
+      .gift-registry-item-update-button-block .btn {
+        width: 98%;
+        margin: 1%;
+        display: block; } }
+
+.gift-registry-quantity-desired-sm {
+  margin-top: 0.938em;
+  margin-right: 25%;
+  padding-right: 6em; }
+  .gift-registry-quantity-desired-sm label {
+    display: block; }
+
+.gift-registry-quantity-desired {
+  padding: 0; }
+
+.no-co-registrant .event-edit-button,
+.no-co-registrant .event-summary,
+.no-co-registrant .card-body,
+.no-post-event-address .event-edit-button,
+.no-post-event-address .event-summary,
+.no-post-event-address .card-body {
+  display: none; }
+
+.add-co-registrant .edit-button,
+.add-post-event-address .edit-button {
+  display: none; }
+
+.gr-landing-links {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  text-decoration: underline;
+  color: #0070d2; }
+
+.advanced-search-toggle {
+  color: #0070d2;
+  cursor: pointer; }
+
+.gr-search-results-count {
+  text-align: center; }
+
+.gr-search-results .card {
+  padding-left: 0;
+  padding-right: 0; }
+
+.gr-search-results {
+  margin-left: 0;
+  margin-right: 0; }
+
+.no-results-div {
+  text-align: center;
+  padding-top: 1.5rem; }
+
+.clear-list-btn {
+  margin-right: 0.6rem; }
+
+.add-items-to-gift-registry {
+  padding-top: 2rem; }
+
+.gift-registry-item-to-clear {
+  font-weight: bold; }
+
+.gift-registry-item-to-remove {
+  font-weight: bold; }
+
+.gift-registry-footer-border .more-btn-border {
+  border-top: 1px dashed #ccc;
+  padding-top: 1.5em;
+  margin-left: 1.5em;
+  margin-right: 1.5em; }
+
+.form-group.required .form-control-label::before {
+  content: "*";
+  color: #c00; }

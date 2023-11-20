@@ -1,0 +1,37 @@
+{
+  "name": "Classified Products",
+  "description": "Products classified by a specific category",
+  "group": "se_custom_assets",
+  "attribute_definition_groups": [
+    {
+      "id": "classificationCategory",
+      "name": "Classification Category",
+      "description": "Classification category used for the products",
+      "attribute_definitions": [
+        {
+          "id": "category",
+          "name": "Category",
+          "type": "category",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "displayFormat",
+      "name": "Display Format",
+      "description": "Display Format",
+      "attribute_definitions": [
+        {
+          "id": "displayFormat",
+          "name": "Number of products per row (Desktop)",
+          "type": "custom",
+          "required": false,
+          "editor_definition": {
+          "type": "custom.gridDisplayFormat"
+          }
+        }
+      ]
+    }
+  ],
+  "region_definitions": []
+}

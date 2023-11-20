@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<promotions xmlns="http://www.demandware.com/xml/impex/promotion/2008-01-31">
+    <campaign campaign-id="Christmas campaign Big spenders">
+        <description>This campaign targets best buyers during Christmas season</description>
+        <enabled-flag>true</enabled-flag>
+        <campaign-scope>
+            <applicable-online/>
+        </campaign-scope>
+        <start-date>2019-05-30T00:00:00.000Z</start-date>
+        <end-date>2019-06-05T23:45:00.000Z</end-date>
+        <customer-groups match-mode="any">
+            <customer-group group-id="Big Spenders"/>
+        </customer-groups>
+    </campaign>
+
+    <campaign campaign-id="Social networks campaign">
+        <description>This campaign targets users coming from our Facebook ads</description>
+        <enabled-flag>true</enabled-flag>
+        <campaign-scope>
+            <applicable-online/>
+        </campaign-scope>
+        <customer-groups match-mode="any">
+            <customer-group group-id="Social shopers"/>
+        </customer-groups>
+    </campaign>
+
+    <promotion promotion-id="promo-30-christmas-big-spenders">
+        <enabled-flag>true</enabled-flag>
+        <archived-flag>false</archived-flag>
+        <searchable-flag>false</searchable-flag>
+        <refinable-flag>false</refinable-flag>
+        <exclusivity>no</exclusivity>
+        <name xml:lang="x-default">Promotion 30% Christmas Campaign Big spenders</name>
+        <product-promotion-rule>
+            <simple-discount>
+                <percentage>30.0</percentage>
+            </simple-discount>
+        </product-promotion-rule>
+    </promotion>
+
+    <promotion promotion-id="promo-20-social-campaign">
+        <enabled-flag>true</enabled-flag>
+        <archived-flag>false</archived-flag>
+        <searchable-flag>false</searchable-flag>
+        <refinable-flag>false</refinable-flag>
+        <exclusivity>no</exclusivity>
+        <name xml:lang="x-default">Promotion 20% Social campaign</name>
+        <product-promotion-rule>
+            <simple-discount>
+                <percentage>20.0</percentage>
+            </simple-discount>
+        </product-promotion-rule>
+    </promotion>
+
+    <promotion-campaign-assignment promotion-id="promo-30-christmas-big-spenders" campaign-id="Christmas campaign Big spenders">
+        <qualifiers match-mode="any">
+            <customer-groups/>
+            <source-codes/>
+            <coupons/>
+        </qualifiers>
+    </promotion-campaign-assignment>
+
+    <promotion-campaign-assignment promotion-id="promo-20-social-campaign" campaign-id="Social networks campaign">
+        <qualifiers match-mode="any">
+            <customer-groups/>
+            <source-codes/>
+            <coupons/>
+        </qualifiers>
+    </promotion-campaign-assignment>
+
+</promotions>

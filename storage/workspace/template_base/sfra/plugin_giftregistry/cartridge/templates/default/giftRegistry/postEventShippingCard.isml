@@ -1,0 +1,17 @@
+<isset name="postEventaddress" value="${true}" scope="page"/>
+<div class="col col-sm-6">
+    <div class="card post-event-shipping-card">
+        <div class="card-header">
+            <h4 class="pull-left">${Resource.msg('heading.post.event.shipping', 'giftRegistry', null)}</h4>
+        </div>
+        <div class="card-body">
+            <isset name="registryShippingAddress" value="${pdict.form.giftRegistryShippingAddress.postEventShippingAddress}" scope="page"/>
+            <isset name="address" value="${pdict.form.giftRegistryShippingAddress.postEventShippingAddress}" scope="page"/>
+            
+            <isif condition="${pdict.addressSelector.addresses.customerAddresses.length > 0}">
+                <isinclude template="giftRegistry/components/addressSelector" />
+            </isif>
+            <isinclude template="giftRegistry/forms/addressForm" />
+        </div>
+    </div>
+</div>
